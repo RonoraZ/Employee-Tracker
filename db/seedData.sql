@@ -9,7 +9,7 @@ VALUES
 ('Legal'), 
 ('Accounting'), 
 ('Human Resources'),
-('Engineering'), 
+('Engineering');
 
 INSERT INTO role (title,salary,department_id) 
 
@@ -23,7 +23,7 @@ VALUES
 ('HR Director',135000,4), 
 ('HR Employee',50000,4), 
 ('Engineer Chief',105000,5), 
-('Engineer',65000,5),  
+('Engineer',65000,5);  
 
 INSERT INTO employee (first_name,last_name,role_id,manager_id) 
 
@@ -37,6 +37,6 @@ VALUES
 ('Lisa','Simpson',4,NULL),
 ('Bart','Simpson',4,4),
 ('Marge','Simpson',5,NULL), 
-('Ned','Flanders',5,5)
+('Ned','Flanders',5,5);
 
 
