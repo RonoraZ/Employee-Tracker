@@ -33,10 +33,8 @@ const startAction = async () => {
                 "Add Employees", 
                 "Add Departments", 
                 "Add Roles", 
-                "Remove Roles",
-                "Remove Departments",
-                "Update Employee Roles", 
-                "Quit"
+                "Update Employee Roles"
+                
             ]
 
         }); 
